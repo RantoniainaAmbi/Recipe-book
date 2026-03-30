@@ -1,0 +1,36 @@
+.filterContainer {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  scrollbar-width: none; 
+}
+
+.filterContainer::-webkit-scrollbar {
+  display: none; 
+}
+
+.filterBtn {
+  white-space: nowrap;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: 1px solid #e2ddd4;
+  background: #fff;
+  color: #6b645a;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filterBtn:hover {
+  background: #f6f4f1;
+  border-color: #c9c2b6;
+}
+
+.active {
+  background: #2a2620;
+  color: #fff;
+  border-color: #2a2620;
+}
