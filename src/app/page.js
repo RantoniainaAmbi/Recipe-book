@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import recipesData from '../data/recipes.json'
 import styles from './page.module.css'
-import RecipeList from '../components/RecipeList/RecipeList'
+import RecipeList from './components/RecipeList/RecipeList'
 
 export default function HomePage() {
   const [orderedRecipes, setOrderedRecipes] = useState(recipesData)
